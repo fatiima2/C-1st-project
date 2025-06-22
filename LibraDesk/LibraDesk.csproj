@@ -120,6 +120,12 @@
     <Compile Include="Resources\AddBook.Designer.cs">
       <DependentUpon>AddBook.cs</DependentUpon>
     </Compile>
+    <Compile Include="Resources\bookTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Resources\bookTable.Designer.cs">
+      <DependentUpon>bookTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="SideBarControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -150,6 +156,9 @@
     </Compile>
     <EmbeddedResource Include="Resources\AddBook.resx">
       <DependentUpon>AddBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\bookTable.resx">
+      <DependentUpon>bookTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SideBarControl.resx">
       <DependentUpon>SideBarControl.cs</DependentUpon>
