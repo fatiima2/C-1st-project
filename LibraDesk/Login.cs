@@ -91,5 +91,10 @@ namespace LibraDesk
         {
 
         }
+
+        private void loginPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

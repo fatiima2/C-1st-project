@@ -34,7 +34,6 @@ namespace LibraDesk.Resources
 
             if (!int.TryParse(quantityTextBox.Text, out int quantity))
             {
-                MessageBox.Show("Please enter a valid number for quantity.");
                 return;
             }
 
@@ -64,6 +63,21 @@ namespace LibraDesk.Resources
         }
 
         private void AddBook_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AuthorTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void titleTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

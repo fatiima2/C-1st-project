@@ -24,9 +24,11 @@ namespace LibraDesk
         private void booksButton_Click(object sender, EventArgs e)
         {
             this.FindForm().Hide();
+            //LibraDesk.Resources.bookTable Table=new LibraDesk.Resources.bookTable();
             LibraDesk.Resources.AddBook addBookForm = new LibraDesk.Resources.AddBook();
             addBookForm.Show();
 
+            //this.FindForm().Show();
         }
 
         private void dashboardButton_Click(object sender, EventArgs e)

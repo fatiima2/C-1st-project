@@ -24,7 +24,6 @@ namespace LibraDesk
             InitializeComponent();
             showSideBar();
         }
-       
 
         public Dashboard(string name, string email, bool libraryMembership)
         {
@@ -171,6 +170,11 @@ namespace LibraDesk
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
         {
 
         }
