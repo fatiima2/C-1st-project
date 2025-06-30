@@ -24,6 +24,7 @@ namespace LibraDesk
             InitializeComponent();
             showSideBar();
         }
+       
 
         public Dashboard(string name, string email, bool libraryMembership)
         {
@@ -44,7 +45,7 @@ namespace LibraDesk
         }
         private void popularData(string name, string email)
         {
-            dashboardName.Text = name;
+            //dashboardName.Text = name;
         }
         private void label1_Click(object sender, EventArgs e)
         {
@@ -126,7 +127,6 @@ namespace LibraDesk
                 {
                     int availableBooks = reader.GetInt32(0);
                     string availability= $"Available Books\n {availableBooks}";
-                    MessageBox.Show($"Available Books {availableBooks}");
                     button1.Text = availability;
                 }
 
@@ -170,11 +170,6 @@ namespace LibraDesk
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
         {
 
         }

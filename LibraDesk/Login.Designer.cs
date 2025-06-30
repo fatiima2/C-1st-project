@@ -125,7 +125,6 @@
             this.loginPassword.Name = "loginPassword";
             this.loginPassword.Size = new System.Drawing.Size(429, 26);
             this.loginPassword.TabIndex = 7;
-            this.loginPassword.TextChanged += new System.EventHandler(this.loginPassword_TextChanged);
             // 
             // label5
             // 
@@ -159,6 +158,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

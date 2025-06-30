@@ -187,7 +187,6 @@
             this.AuthorTextBox.Name = "AuthorTextBox";
             this.AuthorTextBox.Size = new System.Drawing.Size(366, 26);
             this.AuthorTextBox.TabIndex = 1;
-            this.AuthorTextBox.TextChanged += new System.EventHandler(this.AuthorTextBox_TextChanged);
             // 
             // titleTextBox
             // 
@@ -195,7 +194,6 @@
             this.titleTextBox.Name = "titleTextBox";
             this.titleTextBox.Size = new System.Drawing.Size(394, 26);
             this.titleTextBox.TabIndex = 0;
-            this.titleTextBox.TextChanged += new System.EventHandler(this.titleTextBox_TextChanged);
             // 
             // label6
             // 

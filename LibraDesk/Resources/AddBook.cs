@@ -67,16 +67,6 @@ namespace LibraDesk.Resources
 
         }
 
-        private void AuthorTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void titleTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
