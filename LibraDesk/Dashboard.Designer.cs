@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
-            this.dashboardName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.booksList = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -60,15 +59,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dashboardName
-            // 
-            this.dashboardName.AutoSize = true;
-            this.dashboardName.Location = new System.Drawing.Point(1288, 515);
-            this.dashboardName.Name = "dashboardName";
-            this.dashboardName.Size = new System.Drawing.Size(51, 20);
-            this.dashboardName.TabIndex = 0;
-            this.dashboardName.Text = "Name";
             // 
             // label1
             // 
@@ -268,7 +258,6 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.booksList);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dashboardName);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
@@ -292,8 +281,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label dashboardName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView booksList;
         private System.Windows.Forms.Panel panel1;

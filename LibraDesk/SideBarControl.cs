@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace LibraDesk
 {
     public partial class SideBarControl : UserControl
@@ -24,8 +23,8 @@ namespace LibraDesk
         private void booksButton_Click(object sender, EventArgs e)
         {
             this.FindForm().Hide();
-            LibraDesk.Resources.AddBook addBookForm = new LibraDesk.Resources.AddBook();
-            addBookForm.Show();
+            LibraDesk.Resources.bookTableForm BookTableForm=new LibraDesk.Resources.bookTableForm();
+            BookTableForm.Show();
 
         }
 
@@ -36,6 +35,16 @@ namespace LibraDesk
             dashboardForm.Show();
 
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit Confirmation",
+                                         MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
     }
 }

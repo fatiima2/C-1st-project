@@ -45,4 +45,4 @@ D:\2nd Sem\LibraDesk\LibraDesk\LibraDesk\obj\Debug\LibraDesk.Dashboard.resources
 D:\2nd Sem\LibraDesk\LibraDesk\LibraDesk\obj\Debug\LibraDesk.SignUp.resources
 D:\2nd Sem\LibraDesk\LibraDesk\LibraDesk\obj\Debug\LibraDesk.SideBarControl.resources
 D:\2nd Sem\LibraDesk\LibraDesk\LibraDesk\obj\Debug\LibraDesk.Resources.AddBook.resources
-D:\2nd Sem\LibraDesk\LibraDesk\LibraDesk\obj\Debug\LibraDesk.Resources.bookTable.resources
+D:\2nd Sem\LibraDesk\LibraDesk\LibraDesk\obj\Debug\LibraDesk.Resources.bookTableForm.resources
